@@ -1,1 +1,51 @@
 /* You can add global styles to this file, and also import other style files */
+@import "./assets/scss/bootstrap.scss";
+
+@import '~ngx-owl-carousel-o/lib/styles/scss/owl.carousel';
+@import '~ngx-owl-carousel-o/lib/styles/scss/owl.theme.default';
+
+.navs-carousel {
+  .owl-nav {
+    margin-top: 16px;
+
+    .owl-next, .owl-prev {
+      width: 30px;
+      height: 30px;
+      line-height: 24px !important;
+      font-size: 20px !important;
+      border-radius: 50% !important;
+      background-color: rgba($primary, 0.25) !important;
+      color: $primary !important;
+      margin: 4px 8px !important;
+      padding: 4px 5px !important;
+    }
+  }
+}
+
+.container {
+  @media (min-width: 1400px) {
+    max-width: 1400px;
+  }
+
+}
+
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.h-screen-25 {
+  height: 25vh;
+}
+
+.h-screen-50 {
+  height: 50vh;
+}
+
+.h-screen-75 {
+  height: 75vh;
+}
+
+.h-screen-full {
+  height: 100vh;
+}
