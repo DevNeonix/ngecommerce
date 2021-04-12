@@ -1,8 +1,8 @@
 // Variables
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap");
-// 
+//
 // custom-variables
-// 
+//
 
 // Vertical Sidebar - Default Light
 $sidebar-bg: #ffffff;
@@ -134,14 +134,14 @@ $colors: (
 );
 // scss-docs-end colors-map
 
-$primary: $blue;
-$secondary: $gray-600;
+$primary: $black;
+$secondary: $white;
 $success: $green;
 $info: $cyan;
 $warning: $yellow;
 $danger: $red;
-$light: $gray-200;
-$dark: $gray-800;
+$light: $white;
+$dark: $gray-900;
 
 // scss-docs-start theme-colors-map
 $theme-colors: (
