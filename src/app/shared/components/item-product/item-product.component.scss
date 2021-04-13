@@ -1,0 +1,39 @@
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+@import "../../../../assets/scss/variables.scss";
+
+.card-product {
+  max-width: 280px;
+  overflow: hidden;
+
+  .btn-product {
+    border: 1px solid $danger;
+    background: #fff;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    position: absolute;
+    right: -36px;
+    top: -18px;
+    opacity: 0;
+    transition: all .2s ease-in;
+    z-index: 10;
+
+    i {
+      font-size: 1rem;
+    }
+  }
+
+  &:hover {
+    .btn-product:before {
+
+    }
+
+    .btn-product {
+      opacity: 1;
+      right: 4px;
+      border-width: 3px;
+    }
+  }
+}

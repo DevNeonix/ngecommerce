@@ -10,6 +10,7 @@ import { PagesComponent } from './pages/pages.component';
 import { FooterComponent } from './shared/components/footer/footer.component';
 import { HeaderComponent } from './shared/components/header/header.component';
 import { HeaderSocialsComponent } from './shared/components/header-socials.component';
+import { ItemProductComponent } from './shared/components/item-product/item-product.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { HeaderSocialsComponent } from './shared/components/header-socials.compo
     FooterComponent,
     HeaderComponent,
     HeaderSocialsComponent,
+    ItemProductComponent,
   ],
   imports: [
     BrowserModule,

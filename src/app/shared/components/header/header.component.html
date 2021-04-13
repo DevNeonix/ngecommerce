@@ -1,13 +1,34 @@
 <app-header-socials></app-header-socials>
-<div class="header border-bottom">
+<header class="header border-bottom border-top bg-white">
   <div class="container">
     <div class="row">
-      <div class="col text-center">
-        <h1 class="">Title</h1>
+      <div class="col-3">
+        <h1 class="text-dark py-3">{{title}}</h1>
+      </div>
+      <div class="col-9 d-flex justify-content-end align-items-center">
+        <ul class="d-none d-lg-flex list-unstyled m-0 menu-list">
+          <li class="menu-item active">
+            <a href="" class="menu-link">Active</a>
+          </li>
+          <li class="menu-item" *ngFor="let menu of menuList">
+            <a href="" class="menu-link">{{menu.title}}</a>
+          </li>
+        </ul>
+
+        <ul class="d-flex list-unstyled m-0 menu-list">
+          <li class="menu-item-icon d-none d-md-flex">
+            <a href=""><i class="bx bx-search"></i></a>
+          </li>
+          <li class="menu-item-icon d-none d-md-flex">
+            <a href=""><i class="bx bx-heart"></i></a>
+          </li>
+          <li class="menu-item-icon">
+            <a href=""><i class="bx bx-basket"></i></a>
+          </li>
+        </ul>
+
       </div>
     </div>
   </div>
-  <div class="container">
+</header>
 
-  </div>
-</div>

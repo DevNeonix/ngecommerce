@@ -7,7 +7,9 @@ import {Component, ElementRef, OnInit, ViewChild} from '@angular/core';
     <router-outlet></router-outlet>
     <app-footer></app-footer>
   `,
-  styles: []
+  styles: [`
+
+  `]
 })
 export class PagesComponent implements OnInit {
 
