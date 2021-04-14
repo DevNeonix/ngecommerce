@@ -3,7 +3,7 @@ import {Component, OnInit} from '@angular/core';
 @Component({
   selector: 'app-header-socials',
   template: `
-    <div class="header-socials navbar-light bg-white">
+    <div class="header-socials bg-danger">
       <div class="container">
         <div class="row py-2 justify-content-between">
           <div class="col-6 col-md-3 col-lg-2">
@@ -44,7 +44,9 @@ import {Component, OnInit} from '@angular/core';
   `,
   styles: [
     `
-
+      a, i {
+        color: #fff;
+      }
     `,
   ],
 })
